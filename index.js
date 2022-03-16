@@ -164,4 +164,4 @@ const server = new jayson.server({
   remove,
 });
 
-server.http().listen(8000);
+server.http().listen(process.env.PORT || 8000);
