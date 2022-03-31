@@ -2,8 +2,6 @@ const jayson = require("jayson/promise");
 const request = require("request-promise-native");
 const { createHash } = require("crypto");
 
-require('dotenv').config();
-
 const apiKey = process.env.MAILCHIMP_API_KEY;
 const dataCenter = process.env.MAILCHIMP_DATA_CENTER;
 const audienceId = process.env.MAILCHIMP_AUDIENCE_ID;
